@@ -1,0 +1,14 @@
+#animate {
+    animation-name: boy;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+@keyframes boy{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
